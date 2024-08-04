@@ -132,22 +132,22 @@ h1{
 }
 
 .bg3{
-    background-image:url(paraglidingcopy.jpg) ;
+    background-image:url(/media/paraglidingcopy.jpg) ;
 }
 .bg2{
-    background-image: url(bunjee\ copy.jpg);
+    background-image: url(/media/bunjee.jpg);
 }
 .bg1{
-    background-image: url(sky-diving.jpeg);
+    background-image: url(media/sky-diving.jpeg);
 }
 .bg4{
-    background-image: url(hanggliding.jpeg);
+    background-image: url(media/hanggliding.jpeg);
 }
 .bg5{
-    background-image: url(paramotoring.jpeg);
+    background-image: url(media/paramotoring.jpeg);
 }
 .bg6{
-    background-image: url(parasailing.jpeg);
+    background-image: url(media/parasailing.jpeg);
 }
 
 .text{
