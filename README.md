@@ -1,5 +1,6 @@
 
 # Hey, I'm Swati Bhatt👩🏻‍💻!
+<!-- spelling -->
 # Parallax Website📌  
 
 Parallax is the observed displacement of an object caused by the change of the observer's point of view.
@@ -15,9 +16,9 @@ Through this website you will experience a smooth parallax effect featuring a la
 
 
 ##  ☞Sneak Peak 🫣
-
-![App Screenshot](./media/demo.gif)
-<!-- ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here) -->
+<!-- add ss-->
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ##  ☞Feedback✍🏻
