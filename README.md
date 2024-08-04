@@ -16,9 +16,9 @@ Through this website you will experience a smooth parallax effect featuring a la
 
 
 ##  ☞Sneak Peak 🫣
-<!-- add ss-->
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![App Screenshot](https://github.com/swati-bhatt/Parallax/blob/main/media/demo.gif)
+
 
 
 ##  ☞Feedback✍🏻
