@@ -1,0 +1,183 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    /* will not scroll in x direction */
+    overflow-x: hidden;
+
+    /* value of perspective does not matter; ON z-axis */
+    perspective: 10px;
+    height: 100vh;
+
+}
+
+.header{
+    /* bcuz we want to place images in absolute position that is wrt to nearest relatively position anchestor */
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height:100%;
+    /* ----- */
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    /* lets fly comes to top of image  */
+    z-index: -1;
+    object-fit: cover;
+}
+
+.background{
+    /* background image will move 40px backwards */
+    transform: translateZ(-40px) scale(6);
+    overflow-y: hidden;
+    /* from scale image will cover the background */
+    
+}
+
+.heading{
+    transform: translateZ(-10px) scale(1.5);
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+
+.foreground{
+    width: 100vh;
+}
+
+/* multi blue red */
+#foreground1{
+    margin-top: 50%;
+    margin-left: -60%;
+    transform: translateZ(-15px) scale(.5);
+    object-fit: contain;
+
+}
+/* pink white */
+#foreground2{
+    margin-top: 50%;
+    margin-left: 100%;
+    transform: translateZ(-15px) scale(.5);
+    object-fit: contain;
+}
+/* multi red */
+#foreground3{
+    margin-right: 100%;
+    margin-top: 45%;
+    transform: translateZ(-20px) scale(0.45);
+    object-fit: contain;
+}
+/* multi pink*/
+#foreground4{
+    object-fit: contain;
+    margin-top: 0%;
+    margin-left: 165%;
+    transform: translateZ(-25px) scale(.4);
+}
+/* multi yellow */
+#foreground5{
+    margin-left: 30%;
+    /* margin-bottom: 100%; */
+    transform: translateZ(-35px) scale(0.35);
+    object-fit: contain;
+}
+/* red */
+#foreground6{
+    object-fit: contain;
+    /* margin-top: 0%; */
+    margin-left: -80%;
+    transform: translateZ(-28px) scale(.35);
+    align-items: flex-start;
+}
+
+h1{
+    text-shadow: 0 0 8px rgb(0, 0, 0); 
+    position: relative;
+    color: rgb(238, 226, 47);
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: "Edu AU VIC WA NT Hand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.section{
+    background-color: rgb(42, 166, 237);
+    color: rgb(208, 232, 55);
+    padding:3px;
+
+    
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    /* without it paragliding crop from right */
+    background-position: center;
+    background-size: cover;
+    /* image fixed  */
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.bg3{
+    background-image:url(paraglidingcopy.jpg) ;
+}
+.bg2{
+    background-image: url(bunjee\ copy.jpg);
+}
+.bg1{
+    background-image: url(sky-diving.jpeg);
+}
+.bg4{
+    background-image: url(hanggliding.jpeg);
+}
+.bg5{
+    background-image: url(paramotoring.jpeg);
+}
+.bg6{
+    background-image: url(parasailing.jpeg);
+}
+
+.text{
+    margin-left: 5%;
+    margin-right: 3%;
+}
+h2{ 
+    color:  rgb(20, 83, 85);
+    text-align: center;
+    font-size: 30px;
+    padding:10px 0 10px 10px;
+    font-family:Arial, sans-serif;
+    font-weight: 300px;
+}
+h3{
+    position: absolute;
+    background-color:  rgb(208, 232, 55);
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) ;
+    color:  rgb(42, 166, 237);
+    font-size: 1.5rem;
+    
+}
+footer{
+    height: 30px;
+    background-color:  rgb(208, 232, 55);
+    color: black;
+    text-align: center;
+    
+
+}
